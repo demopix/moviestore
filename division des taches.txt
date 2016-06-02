@@ -1,0 +1,14 @@
+base de données sql, fichier avec les requetes, fichier DB.php - Gabriela
+fichers: footer, header, catalogue et index.php (- coder la recherche (header + home + catalogue) - Demetrio
+fichiers: home et afichage.php (- coder la page détails d'un film (page 4)) - Anne Marie
+fichiers: modification.php et categorie.php - Florian (edit por editer les modification des fims)
+
+attention: le fichier categorie.php (CRUD) c'est a faire par Gabriela ou Florian, dependant de cellui qui seras libre plutôt.
+
+Le CSS reste a faire a la fin par celui qui termine plus tôt.
+
+- analyser le fonctionnement de l'API IMDb - demetrio/florian
+
+- écrire le code HTML/CSS (toutes pages ou page par page) - a definir le responsable pour cette tache
+
+ne oblier pas de - bien commenter & indenter son code
