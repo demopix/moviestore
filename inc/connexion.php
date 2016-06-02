@@ -7,7 +7,7 @@ try {
 }
 catch(Exception $e) {
 	//emailAlerte($e->getMessage());
-	echo 'connexion impossible';
+	echo 'connexion impossible ';
 	exit;
 }
 
