@@ -21,10 +21,12 @@ if($_GET['inc'] == 'acc')
 	if($_GET['inc'] == 'add')
 {
 	echo '<h1>Ajouter</h1>';
+	readfile("php://filter/read=string.toupper/resource=http://www.omdbapi.com/?t=all&y=&plot=short&r=json");
 	//include_once'inc/home.php';
 	} 
 	if($_GET['inc'] == 'ctg')
 {   echo '<h1>Catégories</h1>';
+$homepage = file_get_contents('http://www.omdbapi.com/?t=all&y=&plot=short&r=json');
 	//include_once'inc/categorie.php';
 	}
 
