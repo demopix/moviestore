@@ -51,16 +51,16 @@ if (!empty($_GET['catOption'])) {
 					$pdoCategorie->execute();
 		}
 	}
-	else{
-	if (!empty($_POST['catName'])) {
-		//on atribue une variable que assume le valeur du post
+	else {//if (!($cat == 'insert')) {
+		//on atribue une variable que assume le valeur du post*/
 		$nameCat = ($_POST['catName']);
+		print_r($nameCat);
 
 		//on fait la requete de update
 		$catUpdate = '
 				UPDATE category
-				SET ( cat_name, cat_date_update) 
-				VALUES ( :catName, Now())
+				SET (cat_name= :catName, cat_date_update = Now()) 				
+				WHERE cat_name= :catName
 				';
 
 			//on prepare la requete
@@ -74,7 +74,6 @@ if (!empty($_GET['catOption'])) {
 
 	
 } 
-}
 else {
 		$errorList[] = 'vous avais pas fait une option';
 	}
