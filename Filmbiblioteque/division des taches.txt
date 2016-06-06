@@ -1,0 +1,8 @@
+base de données sql, fichier avec les requetes, fichier DB.php - Gabriela
+fichers: footer, header, catalogue et index.php - Demetrio
+fichiers: home et afichage.php - Anne Marie
+fichiers: filmbytitle.php et categorie.php - Florian
+
+attention: le fichier categorie.php c'est a faire par Gabriela ou Florian, dependant de cellui qui seras libre plutôt.
+
+Le CSS reste a faire a la fin par celui qui termine plus tôt.
